@@ -1,0 +1,78 @@
+html{
+    min-width: 50em;
+    background-color: #2a2a3a;
+}
+
+.nav-top-container{
+    margin: auto;
+    background-image: url("textures/voxel-engine-image.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5em;
+    padding-bottom: 15em
+}
+
+.menu-bar-container{
+    margin: auto;
+    width: 50%;
+    color: aliceblue;
+    font: 1.1em sans-serif;
+    background-color: #2a2a3aab;
+    padding: 1em;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.514);
+}
+
+a{
+    transition: all 0.5s ease;
+    color: aliceblue;
+    text-decoration: transparent;
+    border: 2px solid transparent;
+}
+
+a:hover{
+    color: wheat;
+    background-color: #2a2a3a;
+    text-decoration: underline;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
+.text-element{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+
+.article-container{
+    background-color: #3f3f57;
+    margin: auto;
+    margin-top: 2em;
+    width: 50%;
+    font: 1em sans-serif;
+    color: rgb(194, 201, 207);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid wheat;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.514);
+}
+
+.background-color{
+    background-color: #1f1f2c;
+}
+
+.footer-container{
+    margin: auto;
+    width: 50%;
+    margin-top: 2em;
+    padding: 10px;
+    text-align: center;
+    font: 1em sans-serif;
+    color: rgb(194, 201, 207);
+    background-color: #1b1b25;
+    border-radius: 10px;
+    border: 2px solid wheat;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.514);
+}

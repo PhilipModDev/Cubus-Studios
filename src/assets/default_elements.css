@@ -1,0 +1,39 @@
+html{
+    min-width: 50em;
+    background-color: #1c1b22;
+}
+
+header{
+    font-size: xx-large;
+}
+
+body{
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("textures/background_noise.png");
+    margin: 0 auto;
+    padding: 0 0px 0px 0px;
+    font-size: large;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;   
+}
+
+li {
+    display: list-item;
+    margin-bottom: 10px; 
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+   color: deepskyblue;
+}

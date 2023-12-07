@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, height=device-height" charset="utf-8"/>
+<meta content="en-us" http-equiv="Language-Type">
+<link rel="shortcut icon" type="x-icon" href="assets/textures/cubus_studios_logo.png">
+<link rel="stylesheet" href="assets/philips_ruins.css">
+<head>
+     <title>Cubus Studios</title>
+      <link rel="shortcut icon" type="x-icon" href="assets/textures/cubus_studios_logo.png">
+      <link rel="stylesheet" href="assets/philips_ruins.css">
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+      crossorigin="anonymous">
+      </script>
+</head>
+
+<header lang="en-us">
+
+ <section>
+  <Nav>
+    <div class="nav-container">
+      <div class="text-container">
+          <a href="index.html" id="Cubus-Studios">Home</a>
+          <a id="Philips-Ruins" onclick="scrollDownDesription()">Philip's Ruins</a>
+          <a href="about.html" id="About">About</a>
+          <a href="philips_ruins_page.html" id="Versions">Versions</a>
+       </div>  
+        <div class="Minecraft-Image-Container">
+          <div class="Philips-Ruins-Title"><img id="Philips-Ruins-Minecraft-Font" src="assets/textures/philips_ruins_minecraft_font.png" title="Philip's Ruins"></div>
+            <div class="Download-Box" onclick="srcollDownForgeVersions()">Download</div>  
+        </div>
+       </Nav>
+    </section>
+</header>
+  <body lang="en-us">
+      <section>
+        <article>
+              <hr>
+           <div class="description-container">
+               <div class="Philips-Ruins-Image-container">
+                 <img src="assets/textures/Philip's Ruins Logo.png" title="Philip's Ruins" width="100">
+               </div>
+              <p class="description" id="description">
+                Philips's Ruins is a Minecraft ruins generator mod for <a href="https://files.minecraftforge.net/net/minecraftforge/forge/index_1.16.5.html" title="Forge installer">Forge</a> and 
+                <a href="https://fabricmc.net/use/installer/" title="Fabric installer">Fabric</a> and supports the latest Minecraft versions update to date. 
+                The mod adds over 190 new different types of ruins variants to the game, with each having their own unique custom loot tables including some hidden bosses that you can discover while exploring the lost remnants of ruins. 
+                The mod tries to aim for adding ancient ruins to what you see in real life by adding lore to Minecraft to improve the game play functionally. 
+                Two interesting features that this mod includes is that most loot will most likely be buried underground or covered with stones from the ruins. 
+                Secondly compared to other structure mods, Philip’s Ruins will actually make most of its structures look like ruins. 
+                This is done by having the ruin blend with the terrain instead of having a rigid drop off at the end of a structure that most mods include during rough terrain generation. 
+                This makes the ruin that you will come across look like it was there before any other structures like villages come to pass. 
+                It gives a vintage ancient look to the current ruins, keeping the structure along with terrain erosion.
+              </p>
+          </div> 
+          <div class="image-desription-container">
+               <article>
+                    <img class="image-resizing" src="assets/textures/images/field_ruin.png" alt="field_ruin" width="500">
+                    <img class="image-resizing" src="assets/textures/images/ocean_ruin.png" alt="ocean_ruin" width="500">
+                    <img class="image-resizing" src="assets/textures/images/dungeon_ruin.png" alt="dungeon_ruin" width="500">
+                    <img class="image-resizing" src="assets/textures/images/forest_ruin.png" alt="forest_ruin" width="500">
+               </article>
+          </div>
+       </article>
+     </section>
+
+  <section id = download-forge>
+     <h1 class="forge-loader-title">
+           <hr>
+      <img class="forge-image" src="assets/textures/forge.png" alt="Forge" width="60">Forge
+    </h1>
+    
+        <p class="fabric-version-button" onclick="srcollDownFabricVersions()">
+          <img src="assets/textures/fabricmc.png" alt="fabric" width="25">Fabric Version
+        </p>
+        <article class="download-versions">
+         <!--Forge versions-->
+          <div class="forge-version-row-x">
+             <div class="forge-version-box">
+               <h1 class="forge-version-title">Minecraft 1.20.2</h1>
+                <p class="description-tag">
+                   Philip's Ruins (Forge)
+               </p>
+                  <img class="download-icon" src="assets/textures/icons/download-icon.png" alt="download-icon">
+               <div class="forge-download-button">
+
+
+                <!--Downlods link-->
+                  <a class="download-link" href="1.20.2_downloads.html">download</a>
+
+
+
+                </div>
+             </div>
+             <div class="forge-version-box">
+              <h1 class="forge-version-title">Minecraft 1.20.1</h1>
+               <p class="description-tag">
+                Philip's Ruins (Forge)
+              </p>
+              <img class="download-icon" src="assets/textures/icons/download-icon.png" alt="download-icon">
+              <div class="forge-download-button">
+                <a class="download-link" href="1.20.1_downloads.html">download</a>
+              
+              </div>
+            </div>
+
+
+
+
+            <div class="forge-version-box">
+              <h1 class="forge-version-title">Minecraft 1.20</h1>
+               <p class="description-tag">
+                Philip's Ruins (Forge)
+              </p>
+              <img class="download-icon" src="assets/textures/icons/download-icon.png" alt="download-icon">
+              <div class="forge-download-button">
+                  <a class="download-link" href="1.20_downloads.html">download</a>
+              </div>
+            </div>
+
+
+    
+            <div class="forge-version-box">
+              <h1 class="select-versions">Select Versions</h1>
+                <p class="description-tag">
+                    <form>
+                       <input id="download-list-forge" class="version-list-input" title="version list box" list="version-list" type="text">
+                         <datalist class="version-list" id="version-list">
+                            <option label="Philip's Ruins Forge" value ="Philip's Ruins 1.19.2"></option>
+                            <option label="Philip's Ruins Forge" value ="Philip's Ruins 1.19"></option>
+                            <option label="Philip's Ruins Forge" value ="Philip's Ruins 1.18.2"></option>
+                        </datalist>
+                    </form>
+               </p>
+              <img class="download-icon" src="assets/textures/icons/download-icon.png" alt="download-icon">
+              <div onclick="downloadPhilipsRuinsForge()" class="forge-download-button">download</div>
+            </div>
+
+
+
+            </div>
+          </div>
+        </article>
+      </section>
+     <!--Fabric versions-->
+   <section id="download-fabric">
+  <h1 class="fabric-loader-title">
+    <hr>
+    <img class="fabric-image" src="assets/textures/fabricmc.png" alt="Fabric" width="65">
+    Fabric
+  </h1>
+    <p class="forge-version-button" onclick="srcollDownForgeVersions()">
+       <img src="assets/textures/forge.png" alt="forge" width="25">Forge Version
+        </p>
+         <article class="download-versions">
+           <div class="fabric-version-row-x">
+              <div class="fabric-version-box">
+                <h1 class="fabric-version-title">Minecraft 1.20.2</h1>
+                 <p class="description-tag">
+                    Philip's Ruins (Fabric)
+                </p>
+                   <img class="download-icon" src="assets/textures/icons/download-icon.png" alt="download-icon">
+                <div class="fabric-download-button">
+                  <a class="download-link" href="1.20.2_downloads_Fabric.html">download</a>
+                </div>
+              </div>
+              <div class="fabric-version-box">
+               <h1 class="fabric-version-title">Minecraft 1.20.1</h1>
+                <p class="description-tag">
+                 Philip's Ruins (Fabric)
+               </p>
+               <img class="download-icon" src="assets/textures/icons/download-icon.png" alt="download-icon">
+               <div class="fabric-download-button">
+                <a class="download-link" href="1.20.1_downloads_Fabric.html">download</a>
+              </div>
+             </div>
+             <div class="fabric-version-box">
+               <h1 class="fabric-version-title">Minecraft 1.20</h1>
+                <p class="description-tag">
+                 Philip's Ruins (Fabric)
+               </p>
+               <img class="download-icon" src="assets/textures/icons/download-icon.png" alt="download-icon">
+               <div class="fabric-download-button">
+                <a class="download-link" href="1.20_downloads_Fabric.html">download</a>
+              </div>
+             </div>
+
+             <div class="fabric-version-box">
+              <h1 class="select-versions">Select Versions</h1>
+                <p class="description-tag">
+                  <form>
+                    <input id="download-list-fabric" class="version-list-input" title="version list box" list="version-list-fabric" type="text">
+                      <datalist class="version-list" id="version-list-fabric">
+                        <!--Add versions here.-->
+                        <option label="Philip's Ruins Fabric" value ="Philip's Ruins 1.19.2"></option>
+                        <option label="Philip's Ruins Fabric" value ="Philip's Ruins 1.18.2"></option>
+                      </datalist>
+                  </form>
+               </p>
+              <img class="download-icon" src="assets/textures/icons/download-icon.png" alt="download-icon">
+              <div onclick="downloadPhilipsRuinsFabric()" class="fabric-download-button">download</div>
+            </div>
+
+             </div>
+           </div>
+         </article>
+       </section>
+        <script src="scripts/main.js"></script>
+     </body>
+
+    <footer lang="en-us">
+     <div class="copyright-container">Copyright © 2023 - 2025 PhilipModDev. All Rights Reserved.</div>
+     <nav class="footer-links">
+         <a class="footer-links" href="https://www.curseforge.com/minecraft/mc-mods/ruins" title="Curseforge">Curseforge</a>
+         <a class="footer-links" href="contacts.html" title="Contact us">Contact</a>
+         <a class="footer-links" href="about.html" title="About">About</a>
+         <a class="footer-links" href="copyrightPage.html" title="Copyright">Copyright</a>
+     </nav>
+ </footer>    
+</html>

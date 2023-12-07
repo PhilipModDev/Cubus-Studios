@@ -1,0 +1,95 @@
+
+.disord_logo{
+    padding-top: 40px;
+    padding-left: 21px;
+    margin-bottom: 100px;
+    width: 130px;
+}
+
+.disord_logo:hover{
+    content: url("textures/discord_blue.png");
+    padding-top: 40px;
+    padding-left: 21px;
+    margin-bottom: 100px;
+    width: 130px;
+}
+
+.youtube_logo {
+    transition: all 0.5s ease;
+    padding-top: 40px;
+    padding-left: 21px;
+    margin-bottom: 100px;
+    width: 130px;
+}
+
+.youtube_logo:hover {
+    content: url("textures/youtube_logo.png");
+    padding-top: 40px;
+    padding-left: 21px;
+    margin-bottom: 100px;
+    width: 130px;
+}
+
+.github{
+    padding-top: 40px;
+    padding-left: 21px;
+    margin-bottom: 100px;
+    width: 120px;
+}
+
+.github:hover{
+    padding-top: 40px;
+    padding-left: 21px;
+    margin-bottom: 100px;
+    content: url("textures/github-mark-white.png");
+    width: 120px;
+}
+ #discord,
+ #youtube,
+ #github {
+    text-decoration: #1c1b22;
+}
+
+#code-background-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #000000;
+    box-shadow: 0 4px 18px 1px #5b5b66; 
+}
+
+#Philips-Ruins-Image {
+   padding-left: 220px;
+}
+
+#Cubus-Studios-Image{
+    padding-left: 120px; 
+}
+
+#ShockByte-Image{
+    padding-left: 220px; 
+}
+
+.software-logo-continers {
+   max-width: 100;
+}
+
+#OpenGL-Image,
+#LWLGL-Image{
+    padding-left: 1em;
+}
+
+.Bar-Image-One,
+.Bar-Image-Two {
+    min-width: 560px;
+}
+
+#Cubus-Studios-Logo{
+    position: relative;
+    width : 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+

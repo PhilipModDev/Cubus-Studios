@@ -1,0 +1,225 @@
+html{
+    min-width: 50em;
+    background-color: #2b2a33;
+}
+
+
+header{
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("textures/voxel_render.png");
+    padding-bottom: 32em;
+    border-bottom: 10px solid  #1c1c29;
+    border-radius: 10px;
+
+}
+
+.top-nav-bar{
+    background-color: #3d3d53;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    border: 2px solid wheat;
+    box-shadow: 3px 4px 5px black;
+    text-align: center;
+}
+
+
+.text-element{
+    text-decoration: transparent;
+    transition: all 0.5s ease;
+    font: 1.2em sans-serif;
+    color: aliceblue;
+    margin-left: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px solid transparent;
+}
+
+.text-element:hover{
+    text-decoration: transparent;
+    color: wheat;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #2a2a3a;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
+
+ .logo-container-box{
+    margin-top: 50px;
+    text-align: center;
+ }
+
+
+
+ .cubus-studios-info{
+    background-color:#1c1b22;
+    color: #cfcfd8;
+    font: 1.3em sans-serif;
+    justify-content: center;
+    margin-top: 5em;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    box-shadow: 4px 5px 6px black;
+    text-shadow: 4px 5px 6px black;
+ }
+
+ .text-container{
+    margin: auto;
+    max-width: 95%;
+    padding: 1%;
+ }
+
+ .title-container{
+    text-align: center;
+    font-size: xx-large;
+    color: aliceblue;
+ }
+
+ .menu-button{
+    background-color: transparent;
+    border-color: transparent;
+ }
+
+ .footer-nav{
+   background-color: #3d3d53;
+   margin-top: 2%;
+   font: 1.2em sans-serif;
+   padding: 0.5em;
+   border-radius: 10px;
+   border: 2px solid wheat;
+ }
+
+ .footer-element{
+   transition: all 0.9s ease;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: aliceblue;
+   border: 2px solid transparent;
+   text-decoration: transparent;
+ }
+
+ .footer-element:hover{
+   color: wheat;
+   background-color: #20202e;
+   border: 2px solid wheat;
+   border-radius: 10px;
+ }
+ 
+
+ .philips-ruins-info{
+   background-color: #565664;
+   color: #d8d8da;
+   font: 1.3em sans-serif;
+   background-image: url('textures/philips_ruins_trees.png');
+   background-position: left;
+   background-repeat: repeat;
+   background-size: cover;
+   padding-top: 10%;
+   padding-bottom: 10%;
+   margin-top: 2em;
+   text-align: center;
+   justify-content: center;
+   border-radius: 20px;
+   border: 2px solid wheat;
+ }
+
+ .philips-ruins-link{
+   transition: all 0.9s ease;
+   color: aliceblue;
+   font: 2.4em sans-serif;
+   text-transform: uppercase;
+   text-decoration: transparent;
+   padding-right: 4em;
+   padding-left: 4em;
+ }
+
+ .philips-ruins-link:hover{
+   color: aliceblue;
+   font: 2.4em sans-serif;
+   text-decoration: transparent;
+   background-color: #26262c77;
+   border: 2px solid rgb(113, 144, 206);
+   cursor:pointer;
+   border-radius: 20px;
+ }
+
+
+ .about-info{
+   background-color: #565664;
+   color: #d8d8da;
+   font: 1.3em sans-serif;
+   background-image: url('textures/philips_ruins_temple.png');
+   background-position: left;
+   background-repeat: repeat;
+   background-size: cover;
+   padding-top: 10%;
+   padding-bottom: 10%;
+   margin-top: 2em;
+   text-align: center;
+   justify-content: center;
+   border-radius: 20px;
+   border: 2px solid wheat;
+ }
+
+ .about-link{
+   transition: all 0.9s ease;
+   color: aliceblue;
+   font: 2.4em sans-serif;
+   text-transform: uppercase;
+   text-decoration: transparent;
+   padding-right: 4em;
+   padding-left: 4em;
+ }
+
+ .about-link:hover{
+   color: aliceblue;
+   font: 2.4em sans-serif;
+   text-decoration: transparent;
+   background-color: #26262c77;
+   border: 2px solid rgb(113, 144, 206);
+   cursor:pointer;
+   border-radius: 20px;
+ }
+
+
+ .games-info{
+   background-color: #565664;
+   color: #d8d8da;
+   font: 1.3em sans-serif;
+   background-image: url('textures/voxel_render.png');
+   background-position: left;
+   background-repeat: repeat;
+   background-size: cover;
+   padding-top: 10%;
+   padding-bottom: 10%;
+   margin-top: 2em;
+   text-align: center;
+   justify-content: center;
+   border-radius: 20px;
+   border: 2px solid wheat;
+ }
+
+ .games-link{
+   transition: all 0.9s ease;
+   color: aliceblue;
+   font: 2.4em sans-serif;
+   text-transform: uppercase;
+   text-decoration: transparent;
+   padding-right: 4em;
+   padding-left: 4em;
+ }
+
+ .games-link:hover{
+   color: aliceblue;
+   font: 2.4em sans-serif;
+   text-decoration: transparent;
+   background-color: #26262c77;
+   border: 2px solid rgb(113, 144, 206);
+   cursor:pointer;
+   border-radius: 20px;
+ }
+
+

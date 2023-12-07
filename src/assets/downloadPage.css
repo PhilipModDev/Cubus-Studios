@@ -1,0 +1,94 @@
+html{
+    min-width: 40em;
+    background-color: #2a2a3a;
+}
+
+
+.background-image{
+    background-image: url("textures/philips_ruins_trees.png");
+    background-repeat: repeat;
+    background-position: top;
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 20%;
+    border-bottom: 2px solid wheat;
+}
+
+.nav-bar{
+    margin: auto;
+    min-width: 50%;
+    background-color: #4c4c68d3;
+    border: 2px wheat solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font: 150% sans-serif;
+    
+}
+.nav-element{
+    border: 2px solid transparent;
+    transition: all 0.5s ease;
+    color: wheat;
+    text-decoration: transparent;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.nav-element:hover{
+    color: wheat;
+    background-color: #2a2a3a;
+    text-decoration: underline;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
+
+.download-info-box{
+    margin: auto;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    min-width: 50%;
+    background-color: #1d1d2c;
+    text-align: center;
+    font: 1.3em sans-serif;
+    color: aliceblue;
+
+}
+
+.footer-bar{
+    margin: auto;
+    text-align: center;
+    font: 1.3em sans-serif;
+    min-width: 50%;
+    padding-top: 1em;
+    background-color: #4c4c68d3;
+}
+
+.download-button {
+    transition: all 0.5s ease;
+    font: 1em sans-serif;
+    background-color: rgb(71, 72, 78);
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: 2px wheat solid;
+}
+
+.download-button:hover {
+    font: 1em sans-serif;
+    background-color: rgb(29, 30, 36);
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: 2px rgb(253, 240, 214) solid;
+}
+
+.download-image{
+    margin-bottom: 1em;
+}

@@ -1,0 +1,260 @@
+
+.Cubus-Studios:hover {
+    text-shadow: 1px 1px 3px  #00afca;
+    text-decoration: underline;
+    text-decoration-color: #00ddff;
+}
+
+.Cubus-Studios{
+    margin-right: 1em;
+    color: aliceblue;
+    text-decoration-color: transparent;
+}
+.Philips-Ruins:hover {  
+    text-shadow: 1px 1px 3px  #00afca;
+    text-decoration: underline;
+    text-decoration-color: #00ddff;
+}
+
+.Philips-Ruins{
+    text-decoration-color: transparent;
+    color: aliceblue;
+}
+
+.pargraph-block-1 {
+    border-radius: 25px;
+    text-shadow: 1px 2px 3px  black;
+    box-shadow: 4px 4px 5px  black;
+    margin: auto;
+    max-width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font: 1em sans-serif;
+    background-color:#3a3944;
+    color: #bfbfc9;
+    border: 1px solid #999;
+}
+
+.PhilipModDev-Logo {
+    padding-top: 70px;
+}
+
+.About-Me {
+     text-shadow: 1px 2px 3px  black;
+font: 2em sans-serif;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: aliceblue;
+text-align: center;
+}
+
+.top-nav{
+    font: 1em sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    background-color: #2b2a33;
+    padding-top : 15px;
+    padding-bottom: 15px;
+    position: -webkit-sticky; /* Safari */
+    position:sticky;
+    top: 0;
+}
+.media-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a3944;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    border-top: 15px solid #2b2a33;
+}
+
+
+.top-container {
+    text-align: center;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("textures/code1.jpg");
+    padding-bottom: 20px;
+}
+.button-container{
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px  black;
+    justify-content: start;
+    box-sizing: content-box;
+    border: solid #5B6DCD 10px;
+    padding: 5px;
+    display: flex;
+}
+
+#Youtube,#Discord,#Github{
+    box-shadow: 4px 4px 5px  black;
+    font: 1em sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 0.5em;
+    font-size: x-large;
+    color: aliceblue;
+    background: #1c1b22;
+    transition: all 0.5s ease;
+}
+
+#Youtube:hover{
+    font-size: x-large;
+    color: aliceblue;
+    background: #ff0000;
+}
+#Discord:hover{
+    font-size: x-large;
+    color: aliceblue;
+    background: #1658e7;
+}
+#Github:hover{
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+}
+#Sign-Up, #Sign-In{
+    box-shadow: 4px 4px 5px  black;
+    transition: all 0.5s ease;
+    font: 1em sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 1em;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    background: #bfbfc9;
+}
+#Sign-Up:hover, #Sign-In:hover{
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    background: #00ddff;
+}
+.row-one{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bottom-nav{
+    text-align: center;
+    padding-bottom: 20px;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.footer-content{
+    font: 1em sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#1c1b22;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 100px;
+    border: 1px solid #999;
+}
+
+.copyright-link{
+    color: aliceblue;
+}
+
+.copyright-block{
+    text-shadow: 1px 2px 3px  black;
+    text-align: center;
+    color: aliceblue;
+}
+
+.footer-block{
+    font: 1em sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+
+.description{
+    text-shadow: 1px 2px 3px  black;
+    color: #bfbfc9;
+    padding-left: 2em;
+}
+
+.bible-verse {
+   max-width: 11em;
+}
+
+.footer-inner-top{
+  display: flex;  
+}
+
+.footer-inner-bottom {
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 5px;
+    display:flex;
+    min-width: 11px;
+    color: aliceblue;
+}
+
+#Cubus-Studios-Link,
+#Philips-Ruins-Link,
+#Linkedin-Page-Link,
+#Patreon-Link,
+#Cursefogre-Link,
+#Planet-Minecraft-Link,
+#Modrinth-Link,
+#SockByte-Link,
+#Vintage-Story-Link,
+#Youtube-Link,
+#Discord-Link,
+#Github-Link{
+    transition: all 0.5s ease;
+    color:rgb(135, 160, 172)
+}
+
+#Linkedin-Page-Link:hover,
+#Cubus-Studios-Link:hover,
+#Philips-Ruins-Link:hover,
+#SockByte-Link:hover,
+#Discord-Link:hover{
+    color: deepskyblue;
+}
+
+.footer-list-box{
+    display:inline-block;
+    padding-left: 15%;
+}
+#Patreon-Link:hover{
+    color: #bd661f;
+}
+
+#Cursefogre-Link:hover{
+    color: #f88628;
+}
+
+#Modrinth-Link:hover{
+    color: #28f8a1;
+}
+
+#Planet-Minecraft-Link:hover{
+    color: rgb(0, 204, 0);
+}
+
+#Vintage-Story-Link:hover{
+    color: rgb(58, 124, 58);
+}
+
+#Youtube-Link:hover{
+    color: rgb(221, 49, 49);
+}
+
+#Github-Link:hover{
+    color: white;
+}
+.custom-list{
+    display: block;
+    margin-bottom: 2em; 
+}
+
+#Copyright{
+    display: inline-block;
+    background-color:#36353b;
+}
