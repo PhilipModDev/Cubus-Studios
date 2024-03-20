@@ -1,0 +1,74 @@
+body {
+    background-color: #1c1b22;
+}
+
+.header-block {
+  display: flex;
+  justify-content: space-around;
+  font: 2em sans-serif;
+  background-color: #42414d;
+  color : aliceblue;
+  border-radius: 20px;
+  border: #1cee96 solid 2px;
+}
+
+
+.header-element:hover{
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+  background-color: #1cee96;
+  color :#1c1b22;
+}
+
+
+.list-element:hover{
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+  background-color: #1cee96;
+  color :#1c1b22;
+}
+.list-element{
+  padding: 1em; 
+}
+
+
+.header-element {
+    padding: 1em;   
+}
+
+.cubusstudios-logo {
+
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 2em;
+}
+
+.menu {
+
+  padding-top: 15px;
+  width: 2em;
+}
+
+
+.drop-list{
+  position:relative;
+  float: right;
+  text-align: right;
+  background-color: #42414d;
+  border-radius: 20px;
+  border: #1cee96 solid 2px;
+  font: 2em sans-serif;
+  color : aliceblue;
+  visibility: hidden;
+}
+
+.content-background {
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  transition: background-image 0.5s ease-out ;
+  background-image: url("assets/voxel_render_L.png");
+  min-height: 25em;
+}
+
+
